@@ -1,0 +1,10 @@
+a = float(input("Enter the quantity of milk in litre = "))
+b = float(input("Enter the rate of milk = Rs"))
+c = int(input("number of day = "))
+d = a*b*c
+print("Total cost is = ",d)
+e = float(input("Enter the quantity of milk in litre = "))
+f = float(input("Enter the rate of milk = Rs"))
+g = int(input("number of day = "))
+h = d-(e*f*g)
+print("Total cost is = ",h)
